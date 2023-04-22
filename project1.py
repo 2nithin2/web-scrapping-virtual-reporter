@@ -20,7 +20,7 @@ def get_news(url,no_of_headlines):
 
     # Print the headlines
     i=0
-    txt="hi, todays top"+ str(3)+"headlines for you."
+    txt="hi, todays top"+ str(no_of_headlines)+"headlines for you."
     speak(txt)
     for headline in headlines:   
         if i<no_of_headlines:
